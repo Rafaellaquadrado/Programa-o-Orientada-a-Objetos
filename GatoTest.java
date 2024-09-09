@@ -19,5 +19,5 @@ public class GatoTest
    //System.out.println("Qual o nome do seu gato:");
    //String texto = entrada.nextLine();
 
-   String texto = JOptionPane.inputMessageDialog(null, "Qual o nome do seu gato:");
+   String texto = JOptionPane.showInputDialog(null, "Qual o nome do seu gato:");
   }
