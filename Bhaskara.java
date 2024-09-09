@@ -1,6 +1,6 @@
 mport java.util.Scanner;
 
-public class Digitos
+public class Bhaskara
 {
   Public static void main(string[] args)
   {
