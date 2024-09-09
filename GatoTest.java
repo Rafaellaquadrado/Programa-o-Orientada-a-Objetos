@@ -10,7 +10,10 @@ public class GatoTest
    String nome = entrada.nextline();
 
    Gato gatoDeBotas = new Gato();
-   gatoDeBotas.miar(nome);
+   gatoDeBotas.setnome = (texto);
+   System.out.printf("O nome do seu gato é: %s\n", gatoDeBotas.getNome); 
+   gatoDeBotas.miar();
+   gatoDeBotas.lamber();
   }
 
 
