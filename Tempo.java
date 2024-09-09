@@ -15,5 +15,7 @@ public class Tempo
   min = (tempo/60)%60;
   hora = ((tempo/60)/60)%24;
   dia = ((tempo/60)/60)/24;
+  
+  System.out.printf("%d dias, %d/%d/%d", dia, hora, min, seg);
   }
 }
